@@ -1,15 +1,16 @@
 import customtkinter as ctk
+from customtkinter import *
 
 # Inisialisasi tampilan
-ctk.set_appearance_mode("System")  # "Dark", "Light", atau "System"
-ctk.set_default_color_theme("blue")  # atau "green", "dark-blue"
+set_appearance_mode("light")
+set_default_color_theme("green")  # Tema umum (blue, green, dark-blue, etc.)
 
 app = ctk.CTk()  # CTk() adalah pengganti Tk() dari tkinter
-app.title("Reminder Obat")
-app.geometry("400x300")
+app.title("Medication Reminder")
+app.geometry("400x400")
 
 # Label Judul
-judul_label = ctk.CTkLabel(app, text="Aplikasi Reminder Obat", font=("Arial", 20))
+judul_label = ctk.CTkLabel(app, text="Medication Reminder", font=("Poppins", 20))
 judul_label.pack(pady=20)
 
 # Tombol Tambah Obat
