@@ -1,0 +1,1 @@
+This is what happened when you're on holiday and you're bored and want to be productive(￣y▽￣)╭ hohoho..... This was inspired by my father who sometimes forgets whether he has taken his medicine or not, so I made this hehe
